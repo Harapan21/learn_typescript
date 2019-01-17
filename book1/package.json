@@ -1,0 +1,27 @@
+{
+  "name": "learn_typescript",
+  "version": "1.0.0",
+  "description": "this is source, what i learn about typescript",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harapan21/learn_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harapan21/learn_typescript/issues"
+  },
+  "homepage": "https://github.com/Harapan21/learn_typescript#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
